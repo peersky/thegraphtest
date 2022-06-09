@@ -1,0 +1,14 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+.DS_Store
+yarn.lock
+yarn-error.log
+
+#Hardhat files
+cache/
+artifacts/
+.secrets/
+
