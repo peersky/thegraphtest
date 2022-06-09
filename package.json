@@ -1,6 +1,5 @@
 {
   "name": "hardhat-project",
-  "type": "module",
   "scripts": {
     "test": " npx hardhat test",
     "coverage": "npx hardhat coverage",

@@ -42,15 +42,15 @@ export type ItemsPurchased = ContractEventLog<{
   3: string;
 }>;
 
-export interface IShop extends BaseContract {
+export interface IShopyto extends BaseContract {
   constructor(
     jsonInterface: any[],
     address?: string,
     options?: ContractOptions
-  ): IShop;
-  clone(): IShop;
+  ): IShopyto;
+  clone(): IShopyto;
   methods: {
-    mintAndSetPrice(
+    mintAndPrice(
       _articule: string,
       amount: number | string | BN,
       id: number | string | BN,

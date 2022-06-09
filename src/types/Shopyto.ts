@@ -90,13 +90,13 @@ export type URI = ContractEventLog<{
   1: string;
 }>;
 
-export interface Shop extends BaseContract {
+export interface Shopyto extends BaseContract {
   constructor(
     jsonInterface: any[],
     address?: string,
     options?: ContractOptions
-  ): Shop;
-  clone(): Shop;
+  ): Shopyto;
+  clone(): Shopyto;
   methods: {
     balanceOf(
       account: string,
@@ -113,7 +113,7 @@ export interface Shop extends BaseContract {
       operator: string
     ): NonPayableTransactionObject<boolean>;
 
-    mintAndSetPrice(
+    mintAndPrice(
       _articule: string,
       amount: number | string | BN,
       id: number | string | BN,
