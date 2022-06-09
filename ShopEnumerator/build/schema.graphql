@@ -1,0 +1,13 @@
+type ExampleEntity @entity {
+  id: ID!
+  count: BigInt!
+  account: Bytes! # address
+  operator: Bytes! # address
+}
+
+type ItemsAdded @entity {
+  id: ID!
+  count: BigInt!
+  articule: String! # address
+  amount: BigInt! # address
+}
